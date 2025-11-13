@@ -1,0 +1,42 @@
+.maincard {
+  display: flex;
+  justify-content: center;
+  margin: 0px 32px;
+}
+
+.card-box {
+  width: 20rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.611);
+  padding: 1px;
+  /* border-radius: 1.2rem; */
+  border-radius: 50px 10px;
+  height: 55vh;
+  text-align: center;
+  margin-top: 7rem;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.roundimg img {
+  margin-top: 30px;
+  width: 28%;
+  height: 12vh;
+  border-radius: 46px;
+}
+.courseName {
+  font-weight: bold;
+  font-size: 2rem;
+}
+.details {
+  height: 25vh;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.gotop button {
+  border: none;
+  padding: 10px;
+
+  background: #d0437a;
+  border-radius: 0px 10px;
+  color: #ffffff;
+  cursor: pointer;
+  width: 100px;
+}

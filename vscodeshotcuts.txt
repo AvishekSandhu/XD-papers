@@ -1,0 +1,17 @@
+VS code Shortcut
+
+
+Shortcut to Select a Line:
+Windows/Linux: Ctrl + L
+Duplicate a Line:
+
+Windows/Linux: Shift + Alt + DownArrow (or UpArrow)
+Delete a Line:
+
+Windows/Linux: Ctrl + Shift + K
+Move a Line Up or Down:
+
+Windows/Linux: Alt + UpArrow (or DownArrow)
+Jump to a Line:
+
+Windows/Linux/Mac: Ctrl + G 

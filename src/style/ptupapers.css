@@ -1,0 +1,25 @@
+.firstcontainer{
+    display: flex;
+ 
+    gap:20px;
+    justify-content: center;
+ 
+}
+
+#slct1{
+    border: none;
+    outline: none;
+    padding: 5px;
+
+}
+#slct2{
+    border: none;
+    outline: none;
+    padding: 5px;
+    width: 100%;
+   
+}
+
+.secondcontainer{
+text-align: center;
+}

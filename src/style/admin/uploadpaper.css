@@ -1,0 +1,67 @@
+/* uploadpaper.css */
+
+.main-up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+ 
+  min-height: 100vh;
+}
+
+.main-up form {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.main-up form h2 {
+  margin-bottom: 10px;
+  text-align: center;
+  color: #333;
+}
+
+.main-up label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  color: #444;
+}
+
+.main-up input,
+.main-up select {
+  padding: 10px;
+  margin-top: 6px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+  transition: border 0.3s;
+}
+
+.main-up input:focus,
+.main-up select:focus {
+  border-color: #007bff;
+}
+
+.main-up button {
+  padding: 12px;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.main-up button:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,76 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Rubik&display=swap');
+*{
+    margin: 0;
+padding: 0;
+text-decoration: none;
+list-style: none;
+box-sizing:border-box;
+font-family: 'Rubik', sans-serif;
+}
+
+
+html,body{
+    /* background: url(../components/re1.jpg);
+    background-size: cover;  */
+    background-image: linear-gradient(to left top, #ed4961, #f36156, #f4784f, #f38f4c, #efa44e);
+   height: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    
+
+}
+#navbr{
+   
+    height: 120px;
+}
+.nvimg{
+    display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width:9%;
+}
+
+.navul{
+    display: flex;
+    float: left;
+    margin-left: 45px;
+    margin-top: -4rem;
+}
+ 
+.nvm{
+ padding: 10px;
+    font-size: 20px;
+    color: whitesmoke;
+}
+.nvm:hover{
+    color: bisque;
+}
+.nav-right{
+    display: flex;
+    float: right;
+    margin-right: 3rem;
+    margin-top: -4rem;
+}
+.rnvm{
+    padding: 10px;
+    font-size: 20px;
+    color: whitesmoke;
+
+}
+.rnvm:hover{
+    color: bisque;
+}
+
+.rnvm-p{
+    /* display:none; */
+    border-bottom: solid black 2px;
+    margin-right: 10px;
+    font-size: 20px;
+    color: whitesmoke;
+}
+.rnvm-p:hover{
+    color: bisque;
+}

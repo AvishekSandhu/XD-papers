@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Rubik&display=swap');
+*{
+    margin: 0;
+padding: 0;
+text-decoration: none;
+list-style: none;
+box-sizing:border-box;
+font-family: 'Rubik', sans-serif;
+}
+
+
+#wlc{
+   
+    text-align: center;
+}
+.mtxt{
+    display: flex;
+    color: whitesmoke;
+    margin-top: 10pc;
+    margin-left: 1pc;
+    margin-right: auto;
+    font-size: 4rem;
+    font-weight: bold;
+    justify-content: space-evenly;
+
+}
+#btn{
+    margin-top: 20px;
+}
+.btn1{
+    box-shadow: 0 0px 9px 0 #efcb73;
+    background-color:#efcb73 ;
+    color: #290503;
+    padding: 16px;
+    text-decoration: none;
+    font-size: 20px;
+    border: solid #efcb73;
+    border-radius: 50px;
+    text-align: center;
+    
+}
+.btn1:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+.dmain  {
+    margin-top: 10px;
+    margin-bottom: 10px;
+ 
+    margin: 0;
+    overflow: hidden; /* Hides the extra text */
+    white-space: nowrap; /* Prevents text wrapping */
+    border-right: 3px solid black; /* Blinking cursor */
+    animation: typing 4s 
+    , cursor 1s step-end infinite;
+    display: inline-block; /* Keeps the text and cursor inline */
+    
+    text-align: center;
+}
+
+@keyframes cursor{
+    50% {
+        border-color: transparent; /* Cursor disappears halfway */
+      }
+      
+
+}
+@keyframes typing {
+    from { width:0%; }
+    to {   width: 38%; }
+}
+.Lbtn{
+  
+
+    margin-right: 100px;
+   
+   
+    color: whitesmoke;
+    font-size: 15px;
+    background: linear-gradient(to right, #76d7ea, #29c3f8, #00a9ff, #5d88ff, #a059e2); /* Cyan */
+    /* Black text for contrast */
+    border: none;
+    border-radius: 20px;
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight:normal ;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+.Lbtn:hover{
+   
+    transform: scale(1.05);
+}
+.main-lbtn{
+display: flex;
+justify-content: flex-end;
+}
